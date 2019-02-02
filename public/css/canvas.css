@@ -1,0 +1,47 @@
+:root:{
+    --dark: #333;
+    --white:#ccc;
+    --blue:rgb(10,18,191)
+}
+   html{
+       /* background-color: rgb(0,0,1); */
+       box-sizing: border-box;
+   } 
+.Colleges a{
+ text-decoration:none;
+ text-transform: uppercase;
+ display:block;
+  color:var(--white);
+  font-size: 12px;
+
+}
+.Colleges{
+   display: grid;
+   grid-template-columns: repeat(6,1fr);
+   background-color:rgb(0,20,189);
+   color:var(--blue);
+   text-align: center;
+}
+.Colleges li {
+   list-style: none;
+}
+.img{
+   width: 100%;
+}
+.append_route{
+   background-color:var(--dark);
+   font-size:10px;
+   padding : 3px 4px;
+   margin: 2px 2px;
+}
+.related-links li{
+    list-style: none !important;
+    background-color : var(--dark);
+    text-align: center;
+    padding : 2px 3px
+    
+
+}
+.separate{
+   margin-top:200px;
+}

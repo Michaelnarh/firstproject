@@ -1,0 +1,42 @@
+html{
+    background-color:blanchedalmond;
+}
+.Computer_Science {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color:rgb(10, 223, 8);
+    text-align: center;
+    padding-left:70px;
+}
+.Computer_Science a{
+    text-decoration: none !important;
+    text-transform:uppercase;
+    color:var(--white);
+}
+.cs{
+    margin-top:130px;
+}
+.Cs-Courses{
+
+    box-sizing: border-box;
+    position: relative;
+    border-radius:20px;
+    margin-top:10px;
+    
+}
+.Cs-Courses ul li {
+    list-style-position: inside;
+  text-align:left;
+  list-style-type:none;
+}
+.card{
+    list-style-type: none;
+}
+.Answer{
+    display:none;
+}
+.footer-style{
+    background-color: orange;
+    text-align: center;
+    
+}
